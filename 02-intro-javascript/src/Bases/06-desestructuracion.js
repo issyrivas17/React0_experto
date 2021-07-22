@@ -1,6 +1,4 @@
-
-       
-        //Desestructuracion
+//Desestructuracion
         //Asignacion desestructurante 
 
         const persona = {
@@ -33,5 +31,5 @@
                 const {nombreClave,anios,latlng:{lat,lng}} = UseContext(persona);   
 
                 console.log(nombreClave,anios) 
-                console.log(lat,lng)
+                console.log(lat,lng) 
             
